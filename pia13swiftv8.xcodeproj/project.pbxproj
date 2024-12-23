@@ -10,9 +10,22 @@
 		E87B622F2D19518A00F25DAB /* pia13swiftv8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia13swiftv8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E87B62452D195ACD00F25DAB /* Exceptions for "pia13swiftv8" folder in "pia13swiftv8" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E87B622E2D19518A00F25DAB /* pia13swiftv8 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E87B62312D19518A00F25DAB /* pia13swiftv8 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E87B62452D195ACD00F25DAB /* Exceptions for "pia13swiftv8" folder in "pia13swiftv8" target */,
+			);
 			path = pia13swiftv8;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,11 @@
 				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pia13swiftv8/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Always and in use";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Always;
+				INFOPLIST_KEY_NSLocationUsageDescription = Usage;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "When in use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +302,11 @@
 				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pia13swiftv8/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Always and in use";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Always;
+				INFOPLIST_KEY_NSLocationUsageDescription = Usage;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "When in use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
